@@ -11,3 +11,19 @@ theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Data settings
+collections:
+  projects:
+    output: true
+
+# Front Matter Defaults
+defaults:
+  # projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: post
+      read_time: true
+
