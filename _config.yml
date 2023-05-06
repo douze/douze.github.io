@@ -4,6 +4,7 @@ description: Frontend of my GitHub repositories. Graphics programming, and stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://douze.github.io"
 github_username:  douze
+github_home: "https://www.github.com/douze"
 logo: /assets/icons/logo.svg
 
 # Build settings
@@ -16,7 +17,7 @@ plugins:
 # Data settings
 collections:
   projects:
-    output: true
+    # output: true
 
 # Front Matter Defaults
 defaults:
@@ -26,5 +27,3 @@ defaults:
       type: projects
     values:
       layout: post
-      read_time: true
-

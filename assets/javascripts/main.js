@@ -15,4 +15,4 @@ function animateMenuItems() {
   }
 };
 
-animateMenuItems();
+animateMenuItems(); // console
