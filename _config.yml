@@ -4,6 +4,7 @@ description: Frontend of my GitHub repositories. Graphics programming, and stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://douze.github.io"
 github_username:  douze
+logo: /assets/icons/logo.svg
 
 # Build settings
 markdown: kramdown

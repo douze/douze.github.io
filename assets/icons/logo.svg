@@ -1,0 +1,14 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: Arial;
+      font-size: 70px;
+      font-style: italic;
+      font-weight: bold;
+      fill: white;
+    }
+  </style>
+  <circle cx="50" cy="50" r="50" />
+  <text x="15" y="70" class="text">1</text>
+  <text x="45" y="70" class="text">2</text>
+</svg>
